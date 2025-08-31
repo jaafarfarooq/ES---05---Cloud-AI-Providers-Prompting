@@ -1,0 +1,56 @@
+Plan for Learning Next-Gen AI Application Development
+Objective
+To create an account with a cloud AI provider, generate and save discussions on learning strategies, and add this information to a local and remote Git repository.
+
+Step 1: Create a Cloud AI Provider Account
+Choose one of the following providers and follow the sign-up steps. Google Cloud, Anthropic, and OpenAI all require an account and a billing method (even if you're using free tiers) to access their APIs and services.
+
+OpenAI: Navigate to the OpenAI platform website and sign up with an email or a third-party account (like Google or Microsoft). You will need to verify your email and provide a phone number. After creating the account, set up a payment method in the billing section to access the API.
+
+Anthropic: Go to the Anthropic Console. You can sign up with an email or use Google, Microsoft, or Apple for faster verification. Follow the "magic link" sent to your email to complete the process. You will need to set up billing and purchase an initial credit to access the Claude API.
+
+Google Cloud: Sign up for a Google Cloud account. This will give you access to a wide range of services, including Gemini via Vertex AI. You will need to create a project within the Google Cloud console and enable the necessary APIs to get started.
+
+Step 2: Generate Discussion Chats
+Using the platform you chose in Step 1, create several chats with the AI model. The goal is to discuss strategies for learning next-gen AI application development. Here are some prompt ideas to get you started:
+
+"What is a good learning roadmap for someone with a background in web development who wants to get into next-gen AI application development?"
+
+"What are the most important programming languages and frameworks for building AI applications in 2025? Can you compare them?"
+
+"Discuss the role of prompt engineering and RAG (Retrieval Augmented Generation) in modern AI applications."
+
+"What are some good project ideas for a beginner to apply their knowledge of next-gen AI application development?"
+
+"Compare and contrast the different types of AI models (e.g., large language models, diffusion models) and their use cases."
+
+Make sure to have a few back-and-forth exchanges in each chat to create a substantive discussion.
+
+Step 3: Save Chats to a Document
+Copy and paste the contents of your chats into a single document. A .txt or .md file is ideal for this purpose. You can title the document ai_chat_discussions.md. It's a good practice to include the date and the AI model you used at the top of the file for future reference.
+
+Step 4: Add Document to Your Local Repository
+Assuming you have a local Git repository already set up from a previous assignment, follow these steps:
+
+Navigate to your repository: Open your terminal or command prompt and use the cd command to go to the root of your local repository.
+
+Create a new subdirectory: Use the mkdir command to create a new folder. A suitable name would be learning_ai_strategies.
+mkdir learning_ai_strategies
+
+Move the document: Place the ai_chat_discussions.md file you created in Step 3 into the new subdirectory.
+
+Step 5: Commit and Push Changes to the Remote Repository
+Now that your file is in the correct place, you will use Git commands to commit and push your changes.
+
+Check the status: Use git status to confirm that Git has detected the new file.
+
+Add the file to staging: Use the git add command to stage the new directory and its contents.
+git add learning_ai_strategies
+
+Commit the changes: Create a commit with a descriptive message.
+git commit -m "Add chats on AI learning strategies"
+
+Push to remote: Push the new commit to your remote repository.
+git push origin main (or git push origin master depending on your branch name)
+
+After completing these steps, your document will be saved and backed up on your remote repository.
